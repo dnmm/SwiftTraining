@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4F0C599726E21337007C50D6 /* FindGraterNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C599626E21337007C50D6 /* FindGraterNumber.swift */; };
-		4FC5D63926BD7D5A0004B781 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC5D63826BD7D5A0004B781 /* main.swift */; };
+		4F0C599926E216E3007C50D6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C599826E216E3007C50D6 /* main.swift */; };
+		4FC5D63926BD7D5A0004B781 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC5D63826BD7D5A0004B781 /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +26,9 @@
 
 /* Begin PBXFileReference section */
 		4F0C599626E21337007C50D6 /* FindGraterNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindGraterNumber.swift; sourceTree = "<group>"; };
+		4F0C599826E216E3007C50D6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4FC5D63526BD7D5A0004B781 /* SwiftTraining */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTraining; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FC5D63826BD7D5A0004B781 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4FC5D63826BD7D5A0004B781 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 		4FC5D63726BD7D5A0004B781 /* SwiftTraining */ = {
 			isa = PBXGroup;
 			children = (
-				4FC5D63826BD7D5A0004B781 /* main.swift */,
+				4FC5D63826BD7D5A0004B781 /* QuickSort.swift */,
 				4F0C599626E21337007C50D6 /* FindGraterNumber.swift */,
+				4F0C599826E216E3007C50D6 /* main.swift */,
 			);
 			path = SwiftTraining;
 			sourceTree = "<group>";
@@ -122,8 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC5D63926BD7D5A0004B781 /* main.swift in Sources */,
+				4FC5D63926BD7D5A0004B781 /* QuickSort.swift in Sources */,
 				4F0C599726E21337007C50D6 /* FindGraterNumber.swift in Sources */,
+				4F0C599926E216E3007C50D6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
